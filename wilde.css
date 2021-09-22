@@ -1,0 +1,80 @@
+h4.ERLYNNE{
+
+    font-family: sans-serif;
+    font-size: 20px;
+    color:lightcoral;
+}
+h4.ERLYNNE:hover{
+    text-shadow: 2px 2px 5px red;
+    border-style: solid;
+}
+h4.LORDWINDERMERE{
+    font-family: sans-serif;
+    font-size: 20px;
+    color:palevioletred;
+}
+h4.LORDWINDERMERE:hover{
+    text-shadow: 2px 2px 5px red;
+    border-style: solid;
+}
+p.speech{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+
+}
+p.stagedirection{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color:plum;
+}
+p.stagedirection:hover{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color: purple;
+}
+table{
+    margin: 30px;
+}
+th {
+    border: 1px solid black;
+    background-color: cornsilk;
+    padding: 20px;
+    text-align: center;
+}
+td{
+    border: 1px solid black;
+    background-color:darkmagenta;
+    padding: 20px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+.navigation {
+    width: 100%;
+    background-color:black;
+    overflow: auto;
+}
+.navigation a {
+    float: left;
+    padding: 12px;
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navigation a:hover {
+    background-color:palevioletred;
+}
+.book {
+    background-color:white;
+}
+
+@media screen and (max-width: 500px){
+    .navbar a{
+        float: none;
+        display: block;
+    }
+}
